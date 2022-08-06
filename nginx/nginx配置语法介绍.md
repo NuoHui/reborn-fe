@@ -85,10 +85,13 @@ location ~* \.(gif|jpg|jpeg)$ {
 - 测试配置文件是否有语法错误：`-t` `-T`
 - 打印nginx的版本信息：`-v` ` -V`
 
-查看进程
+
 
 ```shell
+# 查看进程
 ps -df | grep nginx
+# 查看nginx 配置文件
+nginx -t
 ```
 
 

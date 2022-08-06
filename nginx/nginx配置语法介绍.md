@@ -92,6 +92,7 @@ location ~* \.(gif|jpg|jpeg)$ {
 ps -df | grep nginx
 # 查看nginx 配置文件
 nginx -t
+whereis nginx
 ```
 
 
